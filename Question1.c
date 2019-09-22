@@ -6,7 +6,7 @@ int occurofele(int c,int x,int arr[MAX]);
 int main()
 {
     int arr[MAX],n,i,count=0,m;
-    int num;
+    int nu;
 
     printf("Enter total number of elements: ");
     scanf("%d",&n);
@@ -21,7 +21,7 @@ int main()
     printf("Enter number to find Occurrence: ");
     scanf("%d",&num);
 
-    m=occurofele(n,num,arr);
+    m=occurofele(n,nu,arr);
     printf("%d",m);
 }
 int occurofele(int c,int x,int arr[MAX])
