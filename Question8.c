@@ -8,7 +8,7 @@ void main()
     printf("enter the elements into the array");
     for(i=0;i<n;i++)
         scanf("%d",&a[i]);
-    printf("which max do you want?");
+    printf("enter max");
     scanf("%d",&k);
     nmax(a,n,k);
 }
